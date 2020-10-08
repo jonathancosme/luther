@@ -1,7 +1,7 @@
 ## Project Luther
 
 The purpose of this project is to build and compare the performance of 3 different models (the purpose is NOT: to build an ACCURATE model).  
-Jupyter notebook can be found [here](lutherMain.ipynb).   
+This is the [Jupyter notebook](lutherMain.ipynb).   
 Here is a [powerpoint format](jcosme-project2.pptx) of the presentation, and here is a [pdf format](jcosme-project2.pdf) of the presentation.  
 
 ### The Data
@@ -9,7 +9,7 @@ We scraped S&P 500 components, and historic component changes, from this [wikipe
 Then we used the Yahoo Finance pandas API to get historic price data, for all components.  
 Finally, we scraped Key Statistics for all component, from the component's Yahoo Finance page.  
 Here is an example for [Apple stock](https://finance.yahoo.com/quote/AAPL/key-statistics?p=AAPL) Key Statistics.  
-The python script used to gather this data can be found [here](scrapeAndGetData.py).
+Here is the [python script](scrapeAndGetData.py) used to gather the data.
 
 ### The Models
 The models attempt to forecast tomorrow's return (% price change), given today's information.  
